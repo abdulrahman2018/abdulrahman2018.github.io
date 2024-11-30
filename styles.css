@@ -1,64 +1,60 @@
-/* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-nav {
-    background: #333;
-}
-
-nav ul {
-    list-style: none;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    color: #333;
 }
 
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
+/* Container Styling */
+.container {
+    background-color: white;
     padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-footer {
-    background: #333;
-    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 800px;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+/* Header Styling */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Button and Link Styling */
+.cv-link {
+    margin: 20px 0;
+}
+
+/* Button Styling */
+button,
+a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    display: inline-block;
+}
+
+button:hover,
+a:hover {
+    background-color: #45a049;
+}
+
+/* Link Specific Styling */
+a {
+    display: inline-block;
 }
